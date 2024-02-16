@@ -16,6 +16,7 @@ import dmitry.pages.OrderPage;
 import dmitry.pages.ProductPage;
 
 public class SubmitOrderTest extends BaseTest {
+	// new comment to test CI/CD Jenkins with Git
 	String productName = "ADIDAS ORIGINAL";
 
 	@Test(dataProvider = "getData", groups = { "Purchase" })
